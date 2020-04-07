@@ -86,6 +86,12 @@ speakers = [
     "headshot": "https://pbs.twimg.com/profile_images/1217335613369847809/IZkUrt5T_400x400.jpg",
     "session": "How to Write for Ourselves and Publish for Others"
   },
+  {
+    "name": "Brandon Weaver",
+    "twitter": "keystonelemur",
+    "headshot": "https://pbs.twimg.com/profile_images/1131054540701126656/Nc3er0o0_400x400.jpg",
+    "session": "Behind the Lemurs - The Creation of Professor When"
+  },
 ]
 
 speakers.each do |speaker|

@@ -78,6 +78,10 @@ a.button:hover {
   margin: 20px;
 }
 
+.flex-item.header {
+  text-align: center;
+}
+
 .flex-item.sm {
   flex-basis: 33%;
   text-align: right;
@@ -89,6 +93,38 @@ a.button:hover {
 .flex-item h1 {
   color: white;
   margin: 0;
+}
+
+/* SPEAKER SECTION */
+
+img.headshot {
+  border-radius: 50%;
+  max-width: 175px;
+  overflow: hidden;
+}
+
+.speaker .flex-item {
+  min-width: 30%;
+}
+
+.speaker .p-40 {
+  width: 40%;
+}
+
+.speaker .p-60 {
+  width: 60%;
+}
+
+.speaker .p-60 h2 {
+  display: inline-block;
+}
+
+.twitter-social {
+  display: inline-block;
+}
+
+.twitter {
+  width: 25px;
 }
 
 /* SPONSOR SECTION */

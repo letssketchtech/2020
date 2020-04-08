@@ -33,6 +33,12 @@ speakers = [
     "session": "Chalk The Talk: How Sketchnoting Makes You A Better Speaker!"
   },
   {
+    "name": "Jessica Rose",
+    "twitter": "jesslynnrose",
+    "headshot": "https://media-exp1.licdn.com/dms/image/C4D03AQGUpFtJe3_WZw/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=2M2qZP5AO1-UZHg_qfTU8lZYoR9m_l8e8bPaYnH16B0",
+    "session": "Burnout and Balance"
+  },
+  {
     "name": "Ashton Rodenheiser",
     "twitter": "mindseyeccf",
     "headshot": "https://media-exp1.licdn.com/dms/image/C4E03AQEow70a-IqPyA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=krffGFkmql3-fcCHes71FZ0wpRpbHAMf416iz-e8XoA",

@@ -257,6 +257,33 @@ img.headshot {
 .footer small {
   margin-left: 20px;
 }
+/* SCHEDULE SECTION */
+
+.section.schedule {
+}
+
+.schedule a {
+  color: #2A2A2E;
+}
+.schedule-break {
+  border-radius: 15px;
+  color: #CA3433;
+  font-weight: 700;
+  background-color:#FBC700;
+  margin-left:30%;
+  margin-right:30%;
+  padding: .5rem;
+
+}
+.schedule-time {
+  color: #23238C;
+  font-weight: 700;
+}
+.schedule-event {
+  color: #2A2A2E;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
 
 @media (max-width: 600px) {
 
@@ -295,4 +322,6 @@ img.headshot {
   .workshops .flex-item.sm > * {
     margin: 0 10px;
   }
+
+
 }

@@ -42,6 +42,19 @@ a.button:hover {
   border-bottom: transparent;
 }
 
+.flawless-hacks {
+  text-align: center;
+}
+
+.flawless-img-box {
+  margin-top: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.flawless-img {
+  max-width: 500px;
+}
 
 /* HERO SECTION */
 
@@ -297,6 +310,7 @@ img.headshot {
 .links-box {
   width: 400px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {

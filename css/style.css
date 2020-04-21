@@ -42,6 +42,15 @@ a.button:hover {
   border-bottom: transparent;
 }
 
+a.inactive {
+  background-color: #ffe680;
+  border-bottom: transparent;
+}
+
+a.inactive:hover {
+  background-color: #ffe680;
+}
+
 .flawless-hacks {
   text-align: center;
 }

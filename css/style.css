@@ -118,6 +118,13 @@ a.inactive:hover {
   margin: 0;
 }
 
+
+/* SPEAKER PAGE */
+.section.speaker {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 /* SPEAKER SECTION */
 
 img.headshot {

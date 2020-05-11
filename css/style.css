@@ -19,6 +19,30 @@ a {
   text-align:center;
 }
 
+
+/* NAVIGATION */
+
+navigation {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background: white;
+  padding-bottom: 20px;
+}
+
+navigation ul {
+  list-style-type: none;
+  margin: 0;
+  float: center;
+  padding: 1em 0 0 0;
+}
+navigation li {
+  display: inline;
+  margin: 7px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
 .speaker a {
   text-decoration: none;
   font-weight: bold;

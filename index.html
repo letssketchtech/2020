@@ -7,9 +7,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/fontello.css">
        
-       <!--<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-        <script src="js/scroll.js"></script>-->
+       <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src="js/scroll.js"></script>
         <script>
+            const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+console.log(tz);
+
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -19,6 +22,17 @@ ga('send', 'pageview');
         </script>
     </head>
     <body id="page-top" data-spy="scroll">
+        <navigation>
+            <ul>
+              <li><a class="page-scroll" href="#schedule">Schedule</li>
+              <li><a class="page-scroll" href="#speakers">Speakers</li>
+                <li><a class="page-scroll" href="#page-top"><img src="img/logo.jpg" height="15px" style="margin-bottom:-3px"></li>
+
+                <li><a class="page-scroll" href="https://appearworks.com/code-of-conduct" target="_blank">Code of Conduct</li>
+              <li><a class="page-scroll" href="#faq">FAQ</a></li>
+            </ul>
+        </navigation>
+
         <div class = "section hero">
             <div class="flex-item header">
                 <img src="img/letssketchtech.png" alt="Let's Sketch Tech Online">
@@ -36,15 +50,6 @@ ga('send', 'pageview');
                <p>Ticket sales will close on Friday May 15 at 8:00 PM PST / 5:00 PM EST!</p>
            </div>
 
-        </div>
-
-        <div class="flex-container">
-            <div class="links-box">
-                <a class="page-scroll" href="#schedule">Schedule</a> |
-                <a class="page-scroll" href="#speakers">Speakers</a> |
-                <a class="page-scroll" href="https://appearworks.com/code-of-conduct" target="_blank">Code of Conduct</a> |
-                <a class="page-scroll" href="#faq">FAQ</a>
-            </div>
         </div>
 
         <div class="flex-container flawless-hacks">
